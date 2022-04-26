@@ -249,6 +249,11 @@
                 let id = $(this).data('id');
                 alert(id);
             })
+
+            btnDeleteMaterial.click(function (e) {
+                let id = $(this).data('id');
+                alert(id);
+            })
         })
     </script>
 @endsection
